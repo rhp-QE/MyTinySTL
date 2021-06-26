@@ -26,7 +26,7 @@ int main()
   using namespace mystl::test;
 
   std::cout.sync_with_stdio(false);
-
+  std::cout << "开始测试" << std::endl;
   RUN_ALL_TESTS();
   algorithm_performance_test::algorithm_performance_test();
   vector_test::vector_test();
